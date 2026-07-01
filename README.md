@@ -20,8 +20,17 @@ Al estar desarrollado en Java puro, no requiere dependencias externas pesadas.
    ```bash
    git clone [https://github.com/josinhoka/bomberman-java-clone.git](https://github.com/josinhoka/bomberman-java-clone.git)```
    
-2. Compila los archivos `.java` o ábrelo directamente en tu IDE favorito (IntelliJ IDEA, Eclipse, VS Code).
-3. Ejecuta la clase `Main.java` para arrancar el motor.
+2. Entra en la carpeta del proyecto:
+```bash
+cd bomberman-java-clone```
+
+3. Compila todos los paquetes desde el directorio raíz:
+```bash
+javac core\Main.java modelo\*.java items\*.java vista\*.java```
+
+4. Ejecuta el motor llamando a la clase principal junto con su paquete:
+```bash
+java core.Main```
 
 ## 🎮 Controles
 
