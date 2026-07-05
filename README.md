@@ -17,20 +17,24 @@ Este proyecto no es solo un juego, es un motor 2D construido a medida. Las princ
 Al estar desarrollado en Java puro, no requiere dependencias externas pesadas. 
 
 1. Clona el repositorio:
-   ```bash
-   git clone [https://github.com/josinhoka/bomberman-java-clone.git](https://github.com/josinhoka/bomberman-java-clone.git)```
+    ```bash
+    git clone https://github.com/josinhoka/bomberman-java-clone.git
+    ```
    
 2. Entra en la carpeta del proyecto:
-```bash
-cd bomberman-java-clone```
+    ```bash
+    cd bomberman-java-clone
+    ```
 
 3. Compila todos los paquetes desde el directorio raíz:
-```bash
-javac core\Main.java modelo\*.java items\*.java vista\*.java```
+    ```bash
+    javac core\Main.java modelo\*.java items\*.java vista\*.java
+    ```
 
 4. Ejecuta el motor llamando a la clase principal junto con su paquete:
-```bash
-java core.Main```
+    ```bash
+    java core.Main
+    ```
 
 ## 🎮 Controles
 
